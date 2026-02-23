@@ -1,17 +1,16 @@
 import "./app.scss";
 import Dock from "./components/Dock";
 import Nav from "./components/Nav";
-import MacWindoow from "./components/windows/MacWindoow";
+import GitHub from "./components/windows/GitHub";
+import Note from "./components/windows/Note";
 
 const App = () => {
   return (
-    <main >
+    <main>
       <Nav />
       <Dock />
-
-     <MacWindoow>
-      <h1>Hello</h1>
-     </MacWindoow>
+      <GitHub />
+      <Note />
     </main>
   );
 };
